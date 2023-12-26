@@ -13,7 +13,10 @@ import btnunder from "../assets/img/btn-under.svg";
 
 export const NuestrosAtributos = () => {
   return (
-    <div id="Tragamonedas" className=" bg_secthree  bg-white md:bg-[unset] lg:pt-[240px] pt-12  md:pt-[170px] md:pb-[165px]  pb-12  lg:pb-[240px]  ">
+    <div
+      id="Tragamonedas"
+      className=" bg_secthree  bg-white md:bg-[unset] lg:pt-[240px] pt-12  md:pt-[170px] md:pb-[165px]  pb-12  lg:pb-[240px]  "
+    >
       <div className=" container mx-auto max-w-[1164px] px-3">
         <div data-aos="fade-down">
           <h2 className=" lg:text-[48px] text-[40px] font-normal text-black ff_Anton text-center">
@@ -217,8 +220,8 @@ export const NuestrosAtributos = () => {
               src={btnunder}
               alt="img"
             />
-            <button className=" font-bold text-[16px] text-black ff_inter comn_btn py-[13px] px-[46px] mt-[40px]">
-              Empezar
+            <button className=" font-bold text-[16px] text-black ff_inter comn_btn py-[13px] px-[46px] mt-[40px] green_shadow">
+              Mostrar más
             </button>
           </div>
         </div>

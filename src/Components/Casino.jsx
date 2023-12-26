@@ -32,7 +32,7 @@ export const Casino = () => {
             </p>
             <div className=" flex justify-center lg:justify-start z-[10]">
               <div className=" relative">
-                <button className=" font-bold text-[16px] text-black ff_inter comn_btn py-[13px] px-[46px] mt-[40px]">
+                <button className=" font-bold text-[16px] text-black ff_inter comn_btn py-[13px] px-[46px] mt-[40px] green_shadow">
                   Aprende más
                 </button>
                 <img

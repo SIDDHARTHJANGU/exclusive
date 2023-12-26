@@ -96,7 +96,7 @@ export const Myheader = () => {
               </ul>
             </div>
             <div className=" relative hidden lg:block z-[10]">
-              <button className=" border border-[#fff] px-[46px] py-[13px] text-white text-[16px] font-bold ff_inter rounded-[41px] ">
+              <button className=" border border-[#fff] px-[46px] py-[13px] text-white text-[16px] font-bold ff_inter rounded-[41px] white_shadow ">
                 Acceso
               </button>
               <img
@@ -133,7 +133,7 @@ export const Myheader = () => {
             </p>
             <div className=" flex justify-center z-[10]">
               <div className=" relative">
-                <button className=" font-bold text-[16px] text-black ff_inter comn_btn py-[13px] px-[46px] mt-[40px]  ">
+                <button className=" font-bold text-[16px] text-black ff_inter comn_btn py-[13px] px-[46px] mt-[40px] green_shadow  ">
                   Empezar
                 </button>
                 <img

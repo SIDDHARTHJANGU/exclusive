@@ -1,7 +1,7 @@
 import React from "react";
 import jackpot from "../assets/img/jackpot.png";
 import { Ticks } from "./Mysvg";
-// import soloone from "../assets/img/soloone.png";
+import soloone from "../assets/img/soloone.png";
 import Juegosone from "../assets/img/Juegosone.png";
 import Juegostwo from "../assets/img/Juegostwo.png";
 import Juegosthree from "../assets/img/Juegosthree.png";
@@ -16,7 +16,7 @@ export const Potenciando = () => {
     >
       <div className=" w-[484px] h-[484px]  rounded-[484px] ellips absolute top-[-20%] left-[-10%] z-[-5] hidden sm:block "></div>
       <div className=" w-[484px] h-[484px]  rounded-[484px] ellips absolute bottom-[0] right-[-10%] z-[-5] "></div>
-      <div className=" container mx-auto max-w-[1164px] px-3">
+      <div className=" container mx-auto max-w-[1164px] px-3 relative ">
         <div className=" flex flex-wrap justify-center  lg:justify-between items-center">
           <div className=" lg:w-[47%] sm:w-[75%]  w-full" data-aos="fade-right">
             <img className=" rounded-[16px] w-full  " src={jackpot} alt="img" />
@@ -66,17 +66,17 @@ export const Potenciando = () => {
           </div>
         </div>
         <div
-          className=" lg:px-[50px] lg:mt-[150px] mt-[70px] relative lanzabg border-[0.5px] rounded-[16px] border-[#fff]"
+          className=" lg:px-[50px] lg:mt-[150px] mt-[70px]   border-[0.5px] rounded-[16px] border-[#fff]"
           data-aos="fade-down"
         >
           <div>
-            {/* <img
-              className=" absolute top-0 left-[4.5%] mix-blend-screen hidden lg:block"
+            <img
+              className=" absolute top-0 left-[0] mix-blend-screen hidden lg:block"
               src={soloone}
               alt="img"
-            /> */}
+            />
             {/* <img
-              className=" absolute bottom-0 right-[4.5%] mix-blend-screen"
+              className=" absolute bottom-0 right-[0] mix-blend-screen  "
               src={solothree}
               alt="img"
             /> */}

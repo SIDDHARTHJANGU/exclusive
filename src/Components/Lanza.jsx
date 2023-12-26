@@ -15,7 +15,7 @@ export const Lanza = () => {
             </h2>
             <div className=" flex justify-center">
               <div className=" relative z-[10]">
-                <button className=" font-bold text-[16px] text-black ff_inter comn_btn py-[13px] px-[46px] mt-[40px]">
+                <button className=" font-bold text-[16px] green_shadow text-black ff_inter comn_btn py-[13px] px-[46px] mt-[40px]">
                   Leer más
                 </button>
                 <img

@@ -145,7 +145,7 @@ export const ParaElegirnos = () => {
                 </p>
               </div>
               <div className=" relative z-[10]">
-                <button className=" border-[1px] mt-[40px] border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px]  ">
+                <button className=" border-[1px] mt-[40px] border-[#fff] font-bold text-[16px] white_shadow ff_inter text-white px-[46px] py-[13px] rounded-[41px]  ">
                   Comprar ahora
                 </button>
                 <img
@@ -239,7 +239,7 @@ export const ParaElegirnos = () => {
               </div>
               <div className=" flex justify-center">
                 <div className=" relative  z-[10]">
-                  <button className=" font-bold text-[16px] text-black ff_inter comn_btn py-[13px] px-[46px] mt-[36px]">
+                  <button className=" font-bold text-[16px] text-black green_shadow ff_inter comn_btn py-[13px] px-[46px] mt-[36px]">
                     Comprar ahora
                   </button>
                   <img
@@ -278,7 +278,7 @@ export const ParaElegirnos = () => {
 
               <div className=" flex justify-center lg:justify-start">
                 <div className=" relative z-[10]">
-                  <button className=" border-[1px] mt-[40px] border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px]  ">
+                  <button className=" border-[1px] mt-[40px] white_shadow border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px]  ">
                     Comprar ahora
                   </button>
                   <img
