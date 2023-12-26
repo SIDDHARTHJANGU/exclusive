@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Casino } from "./Components/Casino";
+import { EllosEligieron } from "./Components/EllosEligieron";
+import { Mas } from "./Components/Mas";
+import { Lanza } from "./Components/Lanza";
+import { Myfooter } from "./Components/Myfooter";
+import { Myheader } from "./Components/Myheader";
+import { NuestrosAtributos } from "./Components/NuestrosAtributos";
+import { ParaElegirnos } from "./Components/ParaElegirnos";
+import { Poker } from "./Components/Poker";
+import { Potenciando } from "./Components/Potenciando";
+import BackToTop from "./Components/BackToTop";
+// import { Preloader } from "./Components/Preloader";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" bg-[#00141b]  overflow-hidden">
+      {/* <Preloader/> */}
+      <BackToTop />
+      <Myheader />
+      <Poker />
+      <NuestrosAtributos />
+      <Potenciando />
+      <Casino />
+      <ParaElegirnos />
+      <EllosEligieron />
+      <Mas />
+      <Lanza />
+      <Myfooter />
     </div>
   );
 }

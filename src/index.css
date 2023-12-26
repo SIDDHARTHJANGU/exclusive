@@ -1,13 +1,152 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ff_inter {
+  font-family: "Inter";
+}
+.ff_Anton {
+  font-family: "Anton";
+}
+.nav_bg {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(26px);
+}
+.bg_hero {
+  background-image: url("./assets/img/Hero-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg_Potenciando {
+  background-image: url("./assets/img/jacjpot_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bg_luxury {
+  background-image: url("./assets/img/luxuryone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lanza_bg {
+  background-image: url("./assets/img/Finalcta.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lanzabg {
+  background-image: url("./assets/img/lanzabg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.comn_btn {
+  border-radius: 41px;
+  background: var(
+    --linear,
+    linear-gradient(307deg, #51c8ef -13.72%, #7af57a 102.02%)
+  );
+}
+.slotcard_layer {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  border-radius: 8px !important;
+  transition: all 350ms linear !important;
+  border: 1px solid transparent;
+}
+.slot-card:hover .slotcard_layer {
+  opacity: 1 !important;
+  border: 1px solid #51c8ef;
+}
+.Juegos_layer {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  border-radius: 8px !important;
+  transition: all 350ms linear !important;
+}
+.Juegos-card:hover .Juegos_layer {
+  opacity: 1 !important;
+}
+.para_card {
+  display: flex;
+  max-width: 374px;
+  width: 100%;
+  padding: 24px 56px;
+  align-items: flex-start;
+  gap: 37px;
+  border-radius: 16px;
+  border: 0.5px solid #51c8ef;
+  background: linear-gradient(
+    307deg,
+    rgba(81, 200, 239, 0.04) -13.72%,
+    rgba(122, 245, 122, 0.04) 102.02%
+  );
+  backdrop-filter: blur(16px);
+}
+.silver_card {
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(
+    307deg,
+    rgba(81, 200, 239, 0.06) -13.72%,
+    rgba(122, 245, 122, 0.06) 102.02%
+  );
+}
+.ellips {
+  opacity: 0.5;
+  background: var(
+    --linear,
+    linear-gradient(307deg, #51c8ef -13.72%, #7af57a 102.02%)
+  );
+  filter: blur(179.9499969482422px);
+}
+.ellips2 {
+  background: var(
+    --linear,
+    linear-gradient(307deg, #51c8ef -13.72%, #7af57a 102.02%)
+  );
+  opacity: 0.7;
+  filter: blur(65.5px);
+}
+.ellips3 {
+  background: var(
+    --linear,
+    linear-gradient(307deg, #51c8ef -13.72%, #7af57a 102.02%)
+  );
+  filter: blur(65.5px);
+}
+@media (min-width: 768px) {
+  .bg_secthree {
+    background-image: url("./assets/img/secthreebg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg_casino {
+    background-image: url("./assets/img/casino-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 1024px) {
+  .bg_secthree {
+    background-image: url("./assets/img/secthreebg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .bg_casino {
+    background-image: url("./assets/img/casino-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+html,
+body {
+  scroll-behavior: smooth;
 }
