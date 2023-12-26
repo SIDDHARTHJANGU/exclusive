@@ -9,7 +9,7 @@ export const Poker = () => {
       className=" lg:pt-[74px] lg:pb-[100px] pt-9 pb-9 relative z-10"
     >
       <div className=" w-[484px] h-[484px]  rounded-[484px] ellips absolute top-[125px] left-[-332px] "></div>
-      <div className=" w-[484px] h-[484px]  rounded-[484px] ellips absolute bottom-[-40%] right-[-332px] z-[15] hidden sm: block "></div>
+      <div className=" w-[484px] h-[484px]  rounded-[484px] ellips absolute bottom-[-40%] right-[-332px] z-[15] hidden sm:block "></div>
       <div className=" container mx-auto  max-w-[1164px] px-3  ">
         <div className=" w-[100px] h-[100px] rounded-[100px] ellips2 absolute top-[45%] left-[50%] z-[-10]"></div>
         <div className=" flex flex-wrap md:justify-between justify-center z-[20] ">
