@@ -15,7 +15,7 @@
   backdrop-filter: blur(26px);
 }
 .bg_hero {
-  background-image: url("./assets/img/Hero-img.png");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 89.07%, #00141B 97.5%), url('./assets/img/Hero-img.png'), #00141B 0px 0px / 100% 101.635% no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
