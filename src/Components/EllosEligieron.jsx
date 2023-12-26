@@ -9,7 +9,7 @@ export const EllosEligieron = () => {
     <div className=" pt-[65px] lg:pt-[150px] lg:pb-[85px] pb-[42px] ">
       <div className=" container mx-auto max-w-[1164px] px-3">
         <div className=" text-center" data-aos="fade-down">
-          <h2 className=" font-normal lg:text-[48px] text-[36px] ff_Anton text-white leading--[120%]">
+          <h2 className=" font-normal lg:text-[48px] text-[36px] ff_Anton text-white leading-[120%]">
             Ellos eligieron apostar con nosotros
           </h2>
         </div>

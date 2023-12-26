@@ -88,7 +88,7 @@ export const Potenciando = () => {
         </div>
         <div>
           <h3
-            className=" lg:text-[48px] text-[40px] font-normal ff_Anton text-white text-center mt-[70px] lg:mt-[150px]"
+            className=" lg:text-[48px] text-[40px] font-normal ff_Anton text-white text-center mt-[70px] lg:mt-[150px] leading-[120%]"
             data-aos="fade-down"
           >
             Juegos en vivo

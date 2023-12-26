@@ -122,7 +122,7 @@ export const Myheader = () => {
             <h1 className=" font-normal lg:text-[72px]  text-[48px] text-white ff_Anton leading-[120%] uppercase">
               Exclusive Games. <span className=" block"> Pasión por ganar</span>
             </h1>
-            <p className=" font-medium lg:text-[16px] text-[14px] ff_inter text-[#cccfd1] pt-[16px] leading-[160%]">
+            <p className=" font-medium lg:text-[16px] text-[14px] ff_inter text-[#cccfd1] pt-[16px] leading-[131%]">
               En Exclusive Games somos un equipo apasionado de personas
               dedicados al desarrollo de{" "}
               <span className=" sm:block">
@@ -133,7 +133,7 @@ export const Myheader = () => {
             </p>
             <div className=" flex justify-center z-[10]">
               <div className=" relative">
-                <button className=" font-bold text-[16px] text-black ff_inter comn_btn py-[13px] px-[46px] mt-[40px] green_shadow  ">
+                <button className=" font-bold text-[16px] text-black ff_inter comn_btn py-[13px] px-[46px] mt-[40px] green_shadow leading-[163%]  ">
                   Empezar
                 </button>
                 <img

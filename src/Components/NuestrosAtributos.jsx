@@ -19,7 +19,7 @@ export const NuestrosAtributos = () => {
     >
       <div className=" container mx-auto max-w-[1164px] px-3">
         <div data-aos="fade-down">
-          <h2 className=" lg:text-[48px] text-[40px] font-normal text-black ff_Anton text-center">
+          <h2 className=" lg:text-[48px] text-[40px] font-normal text-black ff_Anton text-center leading-[120%]">
             Nuestros Atributos de Marca
           </h2>
         </div>
