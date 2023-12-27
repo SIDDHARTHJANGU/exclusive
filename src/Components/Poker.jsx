@@ -46,7 +46,10 @@ export const Poker = () => {
             </div>
           </div>
           <div className=" md:w-[47%]  w-full  flex justify-center flex-col z-[20]">
-            <div className="order-2 md:order-1 mt-[30px]" data-aos="fade-left">
+            <div
+              className="order-2 md:order-1 mt-[30px] lg:mt-0"
+              data-aos="fade-left"
+            >
               <h2 className=" font-normal lg:text-[48px] text-[40px] text-white ff_Anton leading-[120%] ">
                 Nuestra Misión
               </h2>
