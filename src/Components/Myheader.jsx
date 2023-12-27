@@ -30,7 +30,7 @@ export const Myheader = () => {
           <div className=" flex items-center justify-between ">
             <div className=" flex  xl:gap-[101px] gap-[60px]">
               <div>
-                <img src={logo} alt="img" />
+                <img className=" cursor-pointer" src={logo} alt="img" />
               </div>
               <ul
                 className={`${

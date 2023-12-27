@@ -10,7 +10,7 @@ export const Myfooter = () => {
       <div className=" container mx-auto max-w-[1164px] px-3">
         <div className=" flex flex-wrap justify-between pb-[40px]">
           <div className="max-md:w-full">
-            <img src={footerlogo} alt="img" />
+            <img className=" cursor-pointer" src={footerlogo} alt="img" />
             <p className=" font-medium text-[16px] ff_inter text-[#cccccc] leading-[160%] mt-[16px]">
               En Exclusive Games somos un equipo{" "}
               <span className=" lg:block">
