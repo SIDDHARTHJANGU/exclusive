@@ -30,7 +30,7 @@ export const NuestrosAtributos = () => {
           >
             <div>
               <img
-                className=" absolute top-[5%] left-[90%] hidden lg:block"
+                className=" absolute top-[5%] left-[95%] hidden lg:block"
                 src={lineone}
                 alt="img"
               />
